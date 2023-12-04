@@ -2350,19 +2350,27 @@ textarea:focus {
     position: relative;
 }
 .add-actions-link {
-	display: flex;
+	display: inline-block;
 	margin-top: 24px;
 	padding-top: 20px;
 	-webkit-transition: all 300ms ease-in 0s;
 	transition: all 300ms ease-in 0s;
 	width: 100%;
 }
+.add-to-cart {
+	background-color: red;	
+	border: none;
+	background: none;
+	font-size: 15px;
+	color: black;
+}
 .add-actions-link li {
 	line-height: 1;
 	margin: 0 0 0 3px;
 	background: #eef0f1;
-	/* display: inline-block; */
+	display: inline-block;
 	border-radius: 4px;
+	float: left;
 	height: 35px;
 	line-height: 35px;
 	width: 35px;
@@ -2375,7 +2383,7 @@ textarea:focus {
 	transition: all 0.3s ease-in-out;
 	width: 120px;
 }
-.add-actions-link li:hover button {
+.add-actions-link li:hover {
 	background: #fed700;
 	border-color: #fed700;
 }
@@ -2397,20 +2405,23 @@ textarea:focus {
 .add-actions-link li.add-cart:hover a {
 	color: #242424;
 }
-.add-actions-link li.add-cart:hover{
-	background-color: #fed700;
+
+.add-actions-link li.add-cart:hover>.button{
+	background: #fed700;
+	border-color: #fed700;
+
 }
-.add-actions-link li.add-cart:hover button{
-	color: #1e1e1e;
-}
-.add-actions-link li.add-cart > button {
+/* .page-section{
+	text-align: center;
+	margin: 0 auto;
+} */
+.add-actions-link li.add-cart > a {
 	color: #a4a4a4;
 	font-size: 13px;
 	font-weight: 500;
 	text-transform: uppercase;
-	border:0;
 }
-.add-actions-link li.add-cart > button {
+.add-actions-link li.add-cart > a i {
   font-size: 16px;
   line-height: 22px;
 }
@@ -3072,7 +3083,7 @@ text-align: center;
 	padding-left: 30px;
 }
 .category-heading > h2::after {
-	content: ""
+	content: "";
 	height: 10px;
 	position: absolute;
 	top: 0;
@@ -3080,12 +3091,13 @@ text-align: center;
 	font-family: fontawesome;
 }
 .category-heading > h2 > i {
-	float: ;
-	text-align: ;
+	
 	float: right;
 	padding-right: 20px;
 	font-size: 12px;
 }
+
+.khangk
 .category-menu-list {
 	position: absolute;
 	left: 0;
@@ -3792,6 +3804,10 @@ p.checkout-coupon input[type="submit"]:hover {
 	top: 1px;
 	width: auto;
 }
+.row>.input-khang>input{
+	background-color: #0f1316;
+	color: white;
+}
 .order-notes textarea {
 	background-color: transparent;
 	border: 1px solid #ddd;
@@ -3880,6 +3896,7 @@ thead {
 	font-weight: 600;
 	font-size: 18px;
 	cursor: pointer;
+	
 }
 .payment-accordion h5.panel-title>a:hover {
 	color: #fed700 !important;
@@ -3887,7 +3904,7 @@ thead {
 .payment-accordion .card-body>p {
 	color: #515151;
 }
-.order-button-payment input {
+.order-button-payment button {
 	background: #434343 none repeat scroll 0 0;
 	border: medium none;
 	color: #fff;
@@ -3903,7 +3920,7 @@ thead {
 	border: 1px solid transparent;
 	cursor: pointer;
 }
-.order-button-payment input:hover {
+.order-button-payment button:hover {
 	background: #fed700 none repeat scroll 0 0;
 }
 /*----------------------------------------*/
@@ -4011,21 +4028,8 @@ thead {
         opacity: 1; }
 
 /*-- Place Order --*/
-
-.input-khang>input{
-	width: 150px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: #363f4d; 
-	color: #ffffff;
-	border-radius: 5px;
-	border: 0;
-}
-
-/* .register-button {
+.register-button {
 	display: block;
-	padding: 10px;
 	margin-top: 40px;
 	width: 140px;
 	border-radius: 0;
@@ -4033,13 +4037,14 @@ thead {
 	border: none;
 	line-height: 24px;
 	padding: 6px 20px;
+	float: left;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #ffffff;
-	background-color: #363f4d; 
+	background-color: #363f4d;
 	border-radius: 3px;
 	transition: all 0.3s ease-in-out;
-} */
+}
 .register-button:hover {
 	background: #fed700;
 }
@@ -4054,7 +4059,6 @@ thead {
 	border: 1px solid #ededed;
 	height: 40px;
 	width: 55px;
-	
 }
 .li-product-quantity>input {
 	width: 80px;
@@ -4111,10 +4115,6 @@ thead {
 }
 .coupon2 {
 	float: right;
-}
-.coupon2>a{
-	border: 1px solid black;
-	margin-right:10px;
 }
 .cart-page-total {
 	padding-top: 30px;
@@ -4559,11 +4559,8 @@ thead {
 .compare-table .table-hover tbody tr {
 	transition: all 0.3s ease-in-out;
 }
-/* .compare-table .table-hover tbody td a img {
-	width: 350px;
-} */
 .compare-table .table-hover tbody tr:hover {
-	background-color: rgba(0, 0, 0, .02)
+	background-color: rgba(0, 0, 0, .02);
 }
 .compare-table .table tbody th {
 	min-width: 200px;
@@ -5500,3 +5497,4 @@ span.required {
 		color: #5d9cec;
 	}
 }
+
