@@ -9,6 +9,9 @@ include("view/header.php");
 if (isset($_GET['act'])) {
     switch ($_GET['act']) {
         case 'ql_sp':
+            include 'model/xl_product.php';
+            $product = new xl_product_lass();
+            $resultes = $product->show_product();
             include("view/ql_sanpham.php");
             break;
         case 'ql_dm':

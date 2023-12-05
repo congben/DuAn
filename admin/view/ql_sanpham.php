@@ -51,21 +51,28 @@
                                     </tr>                      
                                 
                                  -->
+                                 <?php
+                                 $i = 1; 
+                              //   $image = explode(',', $image_files);
+                                    foreach($resultes as $a) {
+                                        extract($a);
+                                        
+                                        echo' 
                                 <tr style="height:100px;">
                                     <td class="py-1">
                                         '.$i.'
                                     </td>
-                                    <td> '.$sanpham_ten.' </td>
+                                    <td> '.$product_name .' </td>
 
                                     <td style="word-wrap: break-word;">
-                                        '.$sanpham_gia.'
+                                        '.$product_price.'
                                     </td>
-                                    <td> '.$sanpham_theloai.' </td>
+                                    <td>  </td>
                                     <td>
-                                        <img src="./../layout/images/product/large-size/'.$sanpham_img.'" alt="" style="width:100%;height:100%;">
+                                        <img src="" alt="" style="width:100%;height:100%;">
                                     </td>
 
-                                    <td> '.$Sale.'% </td>
+                                    <td> </td>
                                     <td>
                                         <a href="index.php?action=product_management&amp;id=58" class="mdi text-light">
                                             <button class="btn btn-warning btn-rounded btn-sm"> Sửa </button>
@@ -74,7 +81,10 @@
                                             <button class="btn btn-danger btn-rounded btn-sm"> Xóa </button>
                                         </a>
                                     </td>
-                                </tr>
+                                </tr>';
+                                $i++;
+                                    }
+                                ?>
 
 
                             </tbody>
