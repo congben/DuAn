@@ -12,11 +12,11 @@
                                     <div class="single-slide align-center-left  animation-style-01 bg-1">
                                         <div class="slider-progress"></div>
                                         <div class="slider-content">
-                                            <h5>Sale Offer <span>-20% Off</span> This Week</h5>
-                                            <h2>Chamcham Galaxy S9 | S9+</h2>
-                                            <h3>Starting at <span>$1209.00</span></h3>
+                                            <h5>Sale  <span>-20% Off</span> cuối tuần </h5>
+                                            <h2>áo đá bóng | S9+</h2>
+                                            <h3>giá chỉ từ  <span>$12</span></h3>
                                             <div class="default-btn slide-btn">
-                                                <a class="links" href="?op=shop&page=1&start=0">Shopping Now</a>
+                                                <a class="links" href="?op=shop&page=1&start=0">mua ngay</a>
                                             </div>
                                         </div>
                                     </div>
@@ -25,11 +25,11 @@
                                     <div class="single-slide align-center-left animation-style-02 bg-2">
                                         <div class="slider-progress"></div>
                                         <div class="slider-content">
-                                            <h5>Sale Offer <span>Black Friday</span> This Week</h5>
-                                            <h2>Work Desk Surface Studio 2018</h2>
-                                            <h3>Starting at <span>$824.00</span></h3>
+                                        <h5>Sale  <span>-20% Off</span> cuối tuần </h5>
+                                            <h2>áo đá bóng | S9+</h2>
+                                            <h3>giá chỉ từ  <span>$12</span></h3>
                                             <div class="default-btn slide-btn">
-                                                <a class="links" href="?op=shop&page=1&start=0">Shopping Now</a>
+                                                <a class="links" href="?op=shop&page=1&start=0">mua ngay</a>
                                             </div>
                                         </div>
                                     </div>
@@ -38,11 +38,11 @@
                                     <div class="single-slide align-center-left animation-style-01 bg-3">
                                         <div class="slider-progress"></div>
                                         <div class="slider-content">
-                                            <h5>Sale Offer <span>-10% Off</span> This Week</h5>
-                                            <h2>Phantom 4 Pro+ Obsidian</h2>
-                                            <h3>Starting at <span>$1849.00</span></h3>
+                                        <h5>Sale  <span>-20% Off</span> cuối tuần </h5>
+                                            <h2>áo đá bóng | S9+</h2>
+                                            <h3>giá chỉ từ  <span>$12</span></h3>
                                             <div class="default-btn slide-btn">
-                                                <a class="links" href="?op=shop&page=1&start=0">Shopping Now</a>
+                                                <a class="links" href="?op=shop&page=1&start=0">mua ngay</a>
                                             </div>
                                         </div>
                                     </div>
@@ -76,9 +76,9 @@
                         <div class="col-lg-12">
                             <div class="li-product-tab">
                                 <ul class="nav li-product-menu">
-                                   <li><a class="active" data-toggle="tab" href="#li-new-product"><span>New Arrival</span></a></li>
-                                   <li><a data-toggle="tab" href="#li-bestseller-product"><span>Bestseller</span></a></li>
-                                   <li><a data-toggle="tab" href="#li-featured-product"><span>Featured Products</span></a></li>
+                                   <li><a class="active" data-toggle="tab" href="#li-new-product"><span>sản phẩm mới</span></a></li>
+                                   <li><a data-toggle="tab" href="#li-bestseller-product"><span>sản phẩm giảm giá</span></a></li>
+                                   <li><a data-toggle="tab" href="#li-featured-product"><span>sản phẩm đặc biệt</span></a></li>
                                 </ul>               
                             </div>
                             <!-- Begin Li's Tab Menu Content Area -->
@@ -632,15 +632,16 @@
                             <!-- Li's Static Home Image Area End Here -->
                             <!-- Begin Li's Static Home Content Area -->
                             <div class="li-static-home-content">
-                                <p>Sale Offer<span>-20% Off</span>This Week</p>
-                                <h2>Featured Product</h2>
-                                <h2>Meito Accessories 2018</h2>
+                                <p>Sale <span>-20% Off</span>Trong Tuần </p>
+                                <h2>quả bóng hot 2023</h2>
+                                <h2>được sản xuất từ </h2>
+                                <h2> đất nước số một thế giới</h2>
                                 <p class="schedule">
-                                    Starting at
+                                    giá bắt đầu chỉ từ 
                                     <span> $1209.00</span>
                                 </p>
                                 <div class="default-btn">
-                                    <a href="" class="links">Shopping Now</a>
+                                    <a href="" class="links">mua ngay</a>
                                 </div>
                             </div>
                             <!-- Li's Static Home Content Area End Here -->
